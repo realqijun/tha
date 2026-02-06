@@ -14,3 +14,5 @@ def getSecondLargest(arr):
         if i != largest_i and arr[i] > second_l:
             second_l = arr[i]
     return second_l
+
+print(getSecondLargest([2, 3, 4, 2, 3]))

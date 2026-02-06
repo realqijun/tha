@@ -5,3 +5,5 @@ def count_digit(n: int):
             counter += 1
         n //= 10
     return counter
+
+print(count_digit(1234333))

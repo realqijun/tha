@@ -4,4 +4,6 @@ def helper(x, y, iter):
     return helper(x - y, y, iter + 1)
 
 def div_mod(x, y):
-    helper(x, y, 0)
+    return helper(x, y, 0)
+
+print(divmod(10, 3))

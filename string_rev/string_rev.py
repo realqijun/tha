@@ -1,8 +1,9 @@
 def string_rev(s: str):
-    arr = []
-    for i in s:
-        arr.append(i)
     res = ''
-    for c in arr:
-        res = c + res
+    i = 0
+    while i < len(s):
+        res = s[i] + res
+        i += 1
     return res
+
+print(string_rev('hello'))
